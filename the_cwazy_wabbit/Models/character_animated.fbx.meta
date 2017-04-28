@@ -1,0 +1,861 @@
+fileFormatVersion: 2
+guid: 2f3136dccbb6f3d43b517064cdd0512b
+timeCreated: 1493252800
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: ChefArmature
+    100004: ChefMesh
+    100006: Foot.L
+    100008: Foot.L_end
+    100010: Foot.R
+    100012: Foot.R_end
+    100014: Hand.L
+    100016: Hand.L_end
+    100018: Hand.R
+    100020: Hand.R_end
+    100022: Head
+    100024: Head_end
+    100026: Hip.L
+    100028: Hip.R
+    100030: Leg.L
+    100032: Leg.R
+    100034: LowerArm.L
+    100036: LowerArm.R
+    100038: Neck
+    100040: Shoulder.L
+    100042: Shoulder.R
+    100044: Spine
+    100046: UpperArm.L
+    100048: UpperArm.R
+    100050: Waist
+    400000: //RootNode
+    400002: ChefArmature
+    400004: ChefMesh
+    400006: Foot.L
+    400008: Foot.L_end
+    400010: Foot.R
+    400012: Foot.R_end
+    400014: Hand.L
+    400016: Hand.L_end
+    400018: Hand.R
+    400020: Hand.R_end
+    400022: Head
+    400024: Head_end
+    400026: Hip.L
+    400028: Hip.R
+    400030: Leg.L
+    400032: Leg.R
+    400034: LowerArm.L
+    400036: LowerArm.R
+    400038: Neck
+    400040: Shoulder.L
+    400042: Shoulder.R
+    400044: Spine
+    400046: UpperArm.L
+    400048: UpperArm.R
+    400050: Waist
+    4300000: ChefMesh
+    7400000: ChefArmature|WalkTransIn
+    7400002: ChefArmature|Full
+    7400004: ChefArmature|Walk
+    7400006: ChefArmature|TransOut
+    7400008: ChefArmature|Wave
+    7400010: ChefArmature|HandOver
+    7400012: ChefArmature|FidgetTransIn
+    7400014: ChefArmature|Fidget
+    7400016: ChefArmature|FidgetTransOut
+    9500000: //RootNode
+    13700000: ChefMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: ChefArmature|Full
+      takeName: ChefArmature|Walk
+      firstFrame: 0
+      lastFrame: 171
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|WalkTransIn
+      takeName: ChefArmature|Walk
+      firstFrame: 0
+      lastFrame: 7
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|Walk
+      takeName: ChefArmature|Walk
+      firstFrame: 7
+      lastFrame: 31
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|TransOut
+      takeName: ChefArmature|Walk
+      firstFrame: 31
+      lastFrame: 39
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|Wave
+      takeName: ChefArmature|Walk
+      firstFrame: 39
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|HandOver
+      takeName: ChefArmature|Walk
+      firstFrame: 75
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|FidgetTransIn
+      takeName: ChefArmature|Walk
+      firstFrame: 99
+      lastFrame: 111
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|Fidget
+      takeName: ChefArmature|Walk
+      firstFrame: 111
+      lastFrame: 159
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: ChefArmature|FidgetTransOut
+      takeName: ChefArmature|Walk
+      firstFrame: 159
+      lastFrame: 171
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: ChefArmature
+        weight: 1
+      - path: ChefArmature/Spine
+        weight: 1
+      - path: ChefArmature/Spine/Neck
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head
+        weight: 1
+      - path: ChefArmature/Spine/Neck/Head/Head_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.L/UpperArm.L/LowerArm.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R
+        weight: 1
+      - path: ChefArmature/Spine/Shoulder.R/UpperArm.R/LowerArm.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: ChefArmature/Waist
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L
+        weight: 1
+      - path: ChefArmature/Waist/Hip.L/Leg.L/Foot.L/Foot.L_end
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R
+        weight: 1
+      - path: ChefArmature/Waist/Hip.R/Leg.R/Foot.R/Foot.R_end
+        weight: 1
+      - path: ChefMesh
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
