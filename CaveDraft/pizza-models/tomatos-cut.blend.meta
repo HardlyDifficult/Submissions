@@ -1,40 +1,17 @@
 fileFormatVersion: 2
-guid: 427d741be4e3fdd4f92ece95cb43672c
-timeCreated: 1493235832
+guid: 54511dfd282b51a4bac19ea9112794d8
+timeCreated: 1493247534
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
     100000: //RootNode
-    100002: Cylinder
-    100004: Cylinder_001
-    100006: Cylinder_002
-    100008: Cylinder_003
-    100010: Plane
     400000: //RootNode
-    400002: Cylinder
-    400004: Cylinder_001
-    400006: Cylinder_002
-    400008: Cylinder_003
-    400010: Plane
-    2300000: Cylinder
-    2300002: Cylinder_001
-    2300004: Cylinder_002
-    2300006: Cylinder_003
-    2300008: Plane
-    3300000: Cylinder
-    3300002: Cylinder_001
-    3300004: Cylinder_002
-    3300006: Cylinder_003
-    3300008: Plane
-    4300000: Plane
-    4300002: Cylinder_003
-    4300004: Cylinder_002
-    4300006: Cylinder_001
-    4300008: Cylinder
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Icosphere_016
     7400000: Default Take
     9500000: //RootNode
-    13700000: Cylinder_003
   materials:
     importMaterials: 1
     materialName: 0
