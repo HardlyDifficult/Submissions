@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: e2c91b15911348549a1f49397682ec91
-timeCreated: 1494204117
+timeCreated: 1494540539
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -98,9 +98,8 @@ ModelImporter:
     7400002: Fidget
     7400004: Walk_Loop
     7400006: Walk_TransIn
-    7400008: Walk_TransIn_001
-    7400010: Walk_TransOut
-    7400012: Wave
+    7400008: Walk_TransOut
+    7400010: Wave
     9500000: //RootNode
     13700000: Character
   materials:
@@ -127,10 +126,126 @@ ModelImporter:
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 0
+      lastFrame: 46
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Hip_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/LowerLeg_L
+        weight: 1
+      - path: Armature/Hip_L/Thigh_L/LowerLeg_L/Foot_L
+        weight: 1
+      - path: Armature/Hip_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/LowerLeg_R
+        weight: 1
+      - path: Armature/Hip_R/Thigh_R/LowerLeg_R/Foot_R
+        weight: 1
+      - path: Armature/Spine
+        weight: 1
+      - path: Armature/Spine/Neck
+        weight: 1
+      - path: Armature/Spine/Neck/Head
+        weight: 1
+      - path: Armature/Spine/Shoulder_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/IndexA_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/IndexA_L/IndexB_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/IndexA_L/IndexB_L/IndexC_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/MiddleA_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/MiddleA_L/MiddleB_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/MiddleA_L/MiddleB_L/MiddleC_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/PinkyA_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/PinkyA_L/PinkyB_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/PinkyA_L/PinkyB_L/PinkyC_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/ThumbA_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/ThumbA_L/ThumbB_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_L/UpperArm_L/LowerArm_L/ThumbA_L/ThumbB_L/ThumbC_L
+        weight: 1
+      - path: Armature/Spine/Shoulder_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/IndexA_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/IndexA_R/IndexB_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/IndexA_R/IndexB_R/IndexC_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/MiddleA_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/MiddleA_R/MiddleB_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/MiddleA_R/MiddleB_R/MiddleC_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/PinkyA_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/PinkyA_R/PinkyB_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/PinkyA_R/PinkyB_R/PinkyC_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/ThumbA_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/ThumbA_R/ThumbB_R
+        weight: 1
+      - path: Armature/Spine/Shoulder_R/UpperArm_R/LowerArm_R/ThumbA_R/ThumbB_R/ThumbC_R
+        weight: 1
+      - path: Character
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
       name: Fidget
       takeName: Fidget
-      firstFrame: -1
-      lastFrame: 46
+      firstFrame: 0
+      lastFrame: 47
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -245,8 +360,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk_Loop
       takeName: Walk_Loop
-      firstFrame: -1
-      lastFrame: 23
+      firstFrame: 0
+      lastFrame: 24
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -361,8 +476,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk_TransIn
       takeName: Walk_TransIn
-      firstFrame: -1
-      lastFrame: 7
+      firstFrame: 0
+      lastFrame: 8
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -477,8 +592,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Walk_TransOut
       takeName: Walk_TransOut
-      firstFrame: -1
-      lastFrame: 9
+      firstFrame: 0
+      lastFrame: 10
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -593,8 +708,8 @@ ModelImporter:
     - serializedVersion: 16
       name: Wave
       takeName: Wave
-      firstFrame: -1
-      lastFrame: 56
+      firstFrame: 0
+      lastFrame: 57
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
