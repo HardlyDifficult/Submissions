@@ -1,124 +1,137 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace CustomerManager
+namespace HD
 {
-    public class CustomerManager
+  [Serializable]
+  public class CustomerManager : AbstractCustomerManager, IFixedUpdate
+  {
+    #region Data
+    readonly List<Customer> customers = new List<Customer>();
+
+    // .02 is the tickRate in FixedUpdate
+    const double chanceNewOrder = .02 / 90;  // Roughly every 90sec
+    const double chanceNewCustomer = .02 / 3600;    // Roughly every hour ( =3600sec )
+
+    #endregion Data
+
+    #region Init
+    public CustomerManager()
     {
-        #region Data
-
-        private Random rand = new Random();
-
-        private List<Customer> customers = new List<Customer>();
-
-        //TODO Chances need tweaking.
-        private double chanceNewOrder = 0.0001;        //Roughly every 90sec
-
-        private double chanceNewCustomer = 0.000005;    //Roughly every hour
-
-        #endregion Data
-
-        public void FixedUpdate()
-        {
-            foreach (Customer customer in customers)
-            {
-                foreach (Order order in customer.orders)
-                {
-                    if (order.deadline < DateTime.Now)
-                    {
-                        customer.FailedOrder(order);
-                    }
-                }
-            }
-
-            if (rand.NextDouble() < chanceNewCustomer)
-            {
-                Customer newCustomer = new Customer();
-                Order newOrder = new Order(newCustomer, RandomProductType(), RandomProductAmount());
-
-                newCustomer.AddOrder(newOrder);
-                customers.Add(newCustomer);
-
-                // Remove an old customer without pending orders after creating a new one to prevent a memory leak
-                foreach (Customer customer in customers)
-                {
-                    if (customer.orders.Count == 0)
-                    {
-                        customers.Remove(customer);
-                        break;
-                    }
-                }
-            }
-            else if (rand.NextDouble() < chanceNewOrder)
-            {
-                Customer newCustomer = customers[rand.Next(0, customers.Count)];
-                Order newOrder = new Order(newCustomer, RandomProductType(), RandomProductAmount());
-
-                newCustomer.AddOrder(newOrder);
-                customers.Add(newCustomer);
-            }
-        }
-
-        public Customer AddCustomer(string name, uint reputation = 100)
-        {
-            Customer customer = new Customer(name, reputation);
-            customers.Add(customer);
-
-            return customer;
-        }
-
-        #region Write API
-
-        public uint SendProductIfOrdered(Product product, uint amount)
-        {
-            uint sent = 0;
-
-            foreach (Customer customer in customers)
-            {
-                foreach (Order order in customer.orders)
-                {
-                    if (order.productType == product.type)
-                    {
-                        uint amountSent = SendProduct(order, amount);
-
-                        order.SendProduct(amountSent);
-
-                        if (amountSent == amount)
-                        {
-                            return amountSent;
-                        }
-                        amount -= amountSent;
-                        sent += amountSent;
-                    }
-                }
-            }
-
-            return sent;
-        }
-
-        public uint SendProduct(Order order, uint amount)
-        {
-            uint amountToSend = Math.Min(amount, order.amountLeft);
-            order.SendProduct(amountToSend);
-
-            return amountToSend;
-        }
-
-        #endregion Write API
-
-        private uint RandomProductAmount()
-        {
-            //TODO Needs tweaking. Returns a value between 5 and 100 in steps of 5
-            return (uint)rand.Next(1, 21) * 5;
-        }
-
-        private Product.ProductType RandomProductType()
-        {
-            //TODO Make it return a random product type
-            return Product.ProductType.whatever;
-        }
+      AddCustomer();
+      TimeController.Sub(this);
     }
+    #endregion
+
+    #region Events
+    void IFixedUpdate.FixedUpdate(
+      int timeStep)
+    {
+      for(int i = 0; i < timeStep; i++)
+      {
+        foreach(Customer customer in customers)
+        {
+          foreach(Order order in customer.orderList)
+          {
+            if(order.deadline < TimeController.totalDeltaTime)
+            {
+              customer.FailedOrder(order);
+            }
+          }
+        }
+
+        if(Rng.Double() < chanceNewCustomer) // TODO change to Rng next customer time
+        {
+          Customer newCustomer = AddCustomer();
+          Order newOrder = new Order(RandomProductType(), RandomProductAmount());
+          newOrder.Init(newCustomer);
+
+          newCustomer.AddOrder(newOrder);
+
+          // Remove an old customer without pending orders after creating a new one to prevent a memory leak
+          foreach(Customer customer in customers)
+          {
+            if(customer.orderList.Count == 0)
+            {
+              customers.Remove(customer);
+              break;
+            }
+          }
+        }
+        else if(Rng.Double() < chanceNewOrder && customers.Count > 0) // TODO change to cache RNG
+        {
+          Customer newCustomer = customers[Rng.Int(customers.Count)];
+          Order newOrder = new Order(RandomProductType(), RandomProductAmount());
+          newOrder.Init(newCustomer);
+
+          newCustomer.AddOrder(newOrder);
+          customers.Add(newCustomer);
+        }
+      }
+    }
+    #endregion
+
+    #region Write API
+    public Customer AddCustomer(
+      uint reputation = 100)
+    {
+      return AddCustomer(Customer.RandomCustomerName(), reputation);
+    }
+    public Customer AddCustomer(
+      string name,
+      uint reputation = 100)
+    {
+      Customer customer = new Customer(name, reputation);
+      customers.Add(customer);
+
+      return customer;
+    }
+
+    protected override void Ship(
+      Product product)
+    {
+      Order orderToSendThisTo = null;
+      foreach(Customer customer in customers)
+      {
+        foreach(Order order in customer.orderList)
+        {
+          if(order.productType == product.attribute)
+          {
+            orderToSendThisTo = order;
+            break; // TODO sub method to break both
+          }
+        }
+        if (orderToSendThisTo != null) break;
+      }
+
+      if(orderToSendThisTo != null)
+      {
+        SendProduct(orderToSendThisTo, product);
+      }
+    }
+
+    public void SendProduct(
+      Order order,
+      Product product)
+    {
+      order.SendProduct();
+      order.customer.orderList.Remove(order);
+      product.Destroy();
+    }
+    #endregion
+
+    #region Read API
+    uint RandomProductAmount()
+    {
+      //TODO Needs tweaking. Returns a value between 5 and 100 in steps of 5
+      return Rng.Uint(1, 21) * 5;
+    }
+
+    ProductAttribute RandomProductType()
+    {
+      int productIndex = Rng.Int(ProductWrapper.productList.Count);
+      return ProductWrapper.productList[productIndex].attribute;
+    }
+    #endregion
+  }
 }
