@@ -1,0 +1,12 @@
+Twitch Name:
+ExplosiveJames
+
+Contributions:
+Models:
+- Counter.fbx
+- Fridge.fbx
+Textures
+- CounterTexture.png
+- FridgeTexture.png
+- TiledFloorLargeTexture.png
+- TiledFloorSmallTexture.png
