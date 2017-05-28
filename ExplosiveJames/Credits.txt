@@ -4,5 +4,9 @@ ExplosiveJames
 Contributions:
 Models:
 - Counter.fbx
+- Fridge.fbx
 Textures
-- CounterTexture
+- CounterTexture.png
+- FridgeTexture.png
+- TiledFloorLargeTexture.png
+- TiledFloorSmallTexture.png
