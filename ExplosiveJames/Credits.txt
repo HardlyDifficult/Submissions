@@ -5,7 +5,10 @@ Contributions:
 Models:
 - Counter.fbx
 - Fridge.fbx
-- DishWasher
+- DishWasher.fbx
+- Stool.fbx
+- KitchenDoubleDoors.fbx
+- KitchenSingleDoor.fbx
 Textures
 - CounterTexture.png
 - FridgeTexture.png
@@ -14,3 +17,5 @@ Textures
 - TiledFloorSmallTexture.png
 - InteriorRedWall.png
 - InteriorBlueWall.png
+- StoolTexture.png
+- KitchenDoorTexture.png
