@@ -9,6 +9,7 @@ Models:
 - Stool.fbx
 - KitchenDoubleDoors.fbx
 - KitchenSingleDoor.fbx
+- Sink.fbx
 Textures
 - CounterTexture.png
 - FridgeTexture.png
@@ -19,3 +20,4 @@ Textures
 - InteriorBlueWall.png
 - StoolTexture.png
 - KitchenDoorTexture.png
+- SinkTexture.png
