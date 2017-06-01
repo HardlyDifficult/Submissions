@@ -10,6 +10,8 @@ Models:
 - KitchenDoubleDoors.fbx
 - KitchenSingleDoor.fbx
 - Sink.fbx
+- Pantry.fbx
+
 Textures
 - CounterTexture.png
 - FridgeTexture.png
@@ -21,3 +23,4 @@ Textures
 - StoolTexture.png
 - KitchenDoorTexture.png
 - SinkTexture.png
+- PantryTexture.png
