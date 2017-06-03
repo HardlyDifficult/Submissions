@@ -11,6 +11,7 @@ Models:
 - KitchenSingleDoor.fbx
 - Sink.fbx
 - Pantry.fbx
+- HangLight.fbx
 
 Textures
 - CounterTexture.png
@@ -24,3 +25,4 @@ Textures
 - KitchenDoorTexture.png
 - SinkTexture.png
 - PantryTexture.png
+- HangLightTexture.png
