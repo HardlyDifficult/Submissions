@@ -5,8 +5,24 @@ Contributions:
 Models:
 - Counter.fbx
 - Fridge.fbx
+- DishWasher.fbx
+- Stool.fbx
+- KitchenDoubleDoors.fbx
+- KitchenSingleDoor.fbx
+- Sink.fbx
+- Pantry.fbx
+- HangLight.fbx
+
 Textures
 - CounterTexture.png
 - FridgeTexture.png
+- DishwasherTexture.png
 - TiledFloorLargeTexture.png
 - TiledFloorSmallTexture.png
+- InteriorRedWall.png
+- InteriorBlueWall.png
+- StoolTexture.png
+- KitchenDoorTexture.png
+- SinkTexture.png
+- PantryTexture.png
+- HangLightTexture.png
