@@ -12,6 +12,7 @@ Models:
 - Sink.fbx
 - Pantry.fbx
 - HangLight.fbx
+- Bin.fbx
 
 Textures
 - CounterTexture.png
@@ -26,3 +27,4 @@ Textures
 - SinkTexture.png
 - PantryTexture.png
 - HangLightTexture.png
+- BinTexture.png
