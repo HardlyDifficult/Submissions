@@ -1,4 +1,0 @@
-Name: TheCoCe
-
-Contributions:
-Conveyor Belts, Storage, Fridge.
