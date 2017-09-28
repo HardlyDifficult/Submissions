@@ -11,29 +11,39 @@ ModelImporter:
     100006: Cylinder
     100008: RoundBale
     100010: SquareBale
+    100012: RoundBale.001
+    100014: SquareBale.001
     400000: //RootNode
     400002: Cylinder.004
     400004: Cube
     400006: Cylinder
     400008: RoundBale
     400010: SquareBale
+    400012: RoundBale.001
+    400014: SquareBale.001
     2300000: //RootNode
     2300002: Cylinder.004
     2300004: Cube
     2300006: Cylinder
     2300008: RoundBale
     2300010: SquareBale
+    2300012: RoundBale.001
+    2300014: SquareBale.001
     3300000: //RootNode
     3300002: Cylinder.004
     3300004: Cube
     3300006: Cylinder
     3300008: RoundBale
     3300010: SquareBale
+    3300012: RoundBale.001
+    3300014: SquareBale.001
     4300000: Cylinder
     4300002: Cylinder.004
     4300004: Cube
     4300006: SquareBale
     4300008: RoundBale
+    4300010: RoundBale.001
+    4300012: SquareBale.001
   materials:
     importMaterials: 1
     materialName: 0
