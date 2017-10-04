@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 037ff449ae33f1b4b85b4ec84441d292
-timeCreated: 1507059860
+timeCreated: 1507148710
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -17,6 +17,17 @@ ModelImporter:
     100018: Main
     100020: //RootNode
     100022: Tractor
+    100024: 3Point01
+    100026: 3Point02
+    100028: 3Point02_end
+    100030: 3Point02IK
+    100032: 3Point02IK_end
+    100034: 3Point03
+    100036: 3Point04
+    100038: 3Point04_end
+    100040: 3PointLowerRef
+    100042: 3PointUpperRef
+    100044: TractorMesh
     400000: Armature
     400002: Back
     400004: Back_end
@@ -29,9 +40,26 @@ ModelImporter:
     400018: Main
     400020: //RootNode
     400022: Tractor
+    400024: 3Point01
+    400026: 3Point02
+    400028: 3Point02_end
+    400030: 3Point02IK
+    400032: 3Point02IK_end
+    400034: 3Point03
+    400036: 3Point04
+    400038: 3Point04_end
+    400040: 3PointLowerRef
+    400042: 3PointUpperRef
+    400044: TractorMesh
     4300000: Tractor
+    4300002: TractorMesh
+    7400000: Tractor|HighToMid
+    7400002: Tractor|LowToMid
+    7400004: Tractor|MidToHigh
+    7400006: Tractor|MidToLow
     9500000: //RootNode
     13700000: Tractor
+    13700002: TractorMesh
   materials:
     importMaterials: 1
     materialName: 0
