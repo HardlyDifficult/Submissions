@@ -7,9 +7,7 @@ public class Tractor : MonoBehaviour {
     public Transform equipment;
 
     //Can be set by hand as well just in case
-    [SerializeField]
     private Transform referenceUpper; 
-    [SerializeField]
     private Transform referenceLower;
 
 	// Sets up the ref points (if not set by hand)
