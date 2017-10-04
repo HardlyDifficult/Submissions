@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityStandardAssets.CrossPlatformInput;
 
 public class SimpleFreeCam : MonoBehaviour {
     [SerializeField] private float m_Speed = 1.0f;
@@ -19,9 +18,9 @@ public class SimpleFreeCam : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-         m_x = CrossPlatformInputManager.GetAxis("Horizontal");
-         m_y = CrossPlatformInputManager.GetAxis("Vertical");
-         m_Jump = CrossPlatformInputManager.GetAxis("Jump");
+         m_x = Input.GetAxis("Horizontal");
+         m_y = Input.GetAxis("Vertical");
+         m_Jump = Input.GetAxis("Jump");
 
         //Speed multiplier
         if (Input.GetButton("Run"))
