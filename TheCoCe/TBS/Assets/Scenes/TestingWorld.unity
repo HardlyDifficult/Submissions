@@ -595,16 +595,16 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 114638092435987662, guid: b51c8d9263b058546b097c7fe8341164,
-        type: 2}
-      propertyPath: equipment
-      value: 
-      objectReference: {fileID: 1623036748}
     - target: {fileID: 114092124098934890, guid: b51c8d9263b058546b097c7fe8341164,
         type: 2}
       propertyPath: spline
       value: 
       objectReference: {fileID: 1429579899}
+    - target: {fileID: 114638092435987662, guid: b51c8d9263b058546b097c7fe8341164,
+        type: 2}
+      propertyPath: equipment
+      value: 
+      objectReference: {fileID: 1623036748}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: b51c8d9263b058546b097c7fe8341164, type: 2}
   m_IsPrefabParent: 0
