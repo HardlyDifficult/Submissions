@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 37b4be3b35e7de6409ed3a5536cfb078
-timeCreated: 1506727404
+guid: 7eee4048004857940bf05bf8bfd95990
+timeCreated: 1507465138
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -9,8 +9,10 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube.001
+    4300000: Plough02
     4300002: Plough
+    7400000: Plough02|Plough.001Action
+    9500000: //RootNode
   materials:
     importMaterials: 1
     materialName: 0
@@ -80,7 +82,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 0
+  animationType: 2
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
