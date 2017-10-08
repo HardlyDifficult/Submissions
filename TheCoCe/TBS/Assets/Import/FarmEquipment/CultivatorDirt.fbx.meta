@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 0d07d62a7bf48884ab49f91a652da1f4
-timeCreated: 1506785189
+guid: f0e0a8f91312c9f45b0445255aa86dff
+timeCreated: 1507469445
 licenseType: Free
 ModelImporter:
   serializedVersion: 21
@@ -9,9 +9,9 @@ ModelImporter:
     400000: //RootNode
     2300000: //RootNode
     3300000: //RootNode
-    4300000: Cube
-    4300002: Cultivator
-    4300004: Cultivator.001
+    4300000: Cultivator.002
+    4300002: Dirt02
+    4300004: CultivatorDirt
   materials:
     importMaterials: 1
     materialName: 0
