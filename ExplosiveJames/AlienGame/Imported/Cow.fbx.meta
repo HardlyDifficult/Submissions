@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 4df7626d2183a9e4ab95bf7a506107a8
+timeCreated: 1509643672
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: BackFootIK.L
+    100002: BackFootIK.L_end
+    100004: BackFootIK.R
+    100006: BackFootIK.R_end
+    100008: BackHoof.L
+    100010: BackHoof.L_end
+    100012: BackHoof.R
+    100014: BackHoof.R_end
+    100016: BackKnee.L
+    100018: BackKnee.L_end
+    100020: BackKnee.R
+    100022: BackKnee.R_end
+    100024: BackLowerLeg.L
+    100026: BackLowerLeg.R
+    100028: BackUpperLeg.L
+    100030: BackUpperLeg.R
+    100032: BodyBack
+    100034: BodyForward
+    100036: //RootNode
+    100038: Cow
+    100040: Cow_Rig
+    100042: Ear.L
+    100044: Ear.L_end
+    100046: Ear.R
+    100048: Ear.R_end
+    100050: ForwardFootIK.L
+    100052: ForwardFootIK.L_end
+    100054: ForwardFootIK.R
+    100056: ForwardFootIK.R_end
+    100058: FrontHoof.L
+    100060: FrontHoof.L_end
+    100062: FrontHoof.R
+    100064: FrontHoof.R_end
+    100066: FrontKnee.L
+    100068: FrontKnee.L_end
+    100070: FrontKnee.R
+    100072: FrontKnee.R_end
+    100074: FrontLowerLeg.L
+    100076: FrontLowerLeg.R
+    100078: FrontUpperLeg.L
+    100080: FrontUpperLeg.R
+    100082: Head
+    100084: Master
+    100086: Mouth
+    100088: Mouth_end
+    100090: Neck
+    100092: Tail1
+    100094: Tail2
+    100096: Tail3
+    100098: Tail4
+    100100: Tail4_end
+    400000: BackFootIK.L
+    400002: BackFootIK.L_end
+    400004: BackFootIK.R
+    400006: BackFootIK.R_end
+    400008: BackHoof.L
+    400010: BackHoof.L_end
+    400012: BackHoof.R
+    400014: BackHoof.R_end
+    400016: BackKnee.L
+    400018: BackKnee.L_end
+    400020: BackKnee.R
+    400022: BackKnee.R_end
+    400024: BackLowerLeg.L
+    400026: BackLowerLeg.R
+    400028: BackUpperLeg.L
+    400030: BackUpperLeg.R
+    400032: BodyBack
+    400034: BodyForward
+    400036: Cow
+    400038: //RootNode
+    400040: Cow_Rig
+    400042: Ear.L
+    400044: Ear.L_end
+    400046: Ear.R
+    400048: Ear.R_end
+    400050: ForwardFootIK.L
+    400052: ForwardFootIK.L_end
+    400054: ForwardFootIK.R
+    400056: ForwardFootIK.R_end
+    400058: FrontHoof.L
+    400060: FrontHoof.L_end
+    400062: FrontHoof.R
+    400064: FrontHoof.R_end
+    400066: FrontKnee.L
+    400068: FrontKnee.L_end
+    400070: FrontKnee.R
+    400072: FrontKnee.R_end
+    400074: FrontLowerLeg.L
+    400076: FrontLowerLeg.R
+    400078: FrontUpperLeg.L
+    400080: FrontUpperLeg.R
+    400082: Head
+    400084: Master
+    400086: Mouth
+    400088: Mouth_end
+    400090: Neck
+    400092: Tail1
+    400094: Tail2
+    400096: Tail3
+    400098: Tail4
+    400100: Tail4_end
+    4300000: Cow
+    7400000: Cow_Rig|Abducted
+    7400002: Cow_Rig|Dying1
+    7400004: Cow_Rig|Idle
+    9500000: //RootNode
+    13700000: Cow
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
