@@ -4,7 +4,7 @@
 
 Yes!  I cannot do this alone.  I am a terrible artist so completely depend on viewers for that... but other areas can be a huge help as well.  Anyone is welcome to contribute ideas, code, help test, art, music, ...everything that goes into gamedev.  
 
-You can get as involved as you like.  
+You can get as involved as you like.  FYI officially this is just me.  Some have gotten very involved, but it started with them stepping up in chat saying they would like to help.  Please feel free to jump in, maybe starting small.
 
 Pros:
 
