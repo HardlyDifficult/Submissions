@@ -44,6 +44,9 @@ To submit there are two options:
          - It should default correctly, but this should create a pull request merging your master branch into my master branch.
          - In the comments describe what changed (if art, maybe include a screenshot).
 
+## What Should I Work On?
+
+You can poke around our TODO lists here https://docs.google.com/document/d/16UcYhl3vxI0_eIHl3o-dfzr6S18MlRkq6_ywJAZBI5M/edit .. or if you have another idea, just let us know.
 
 ## MIT template (two blanks to fill in at the beginning)
 
