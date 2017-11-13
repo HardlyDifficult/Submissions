@@ -19,7 +19,7 @@
 			LOD 200
 
 			CGPROGRAM
-			#pragma surface surf Standard
+			#pragma surface surf Standard 
 			#pragma target 3.0
 
 		sampler2D _MainTex;
