@@ -2,7 +2,7 @@
 
 ## Can I help?
 
-Yes!  I cannot do this alone.  I am a terrible artist so completely depend on viewers for that... but other areas can be a huge help as well.  Anyone is welcome to contribute ideas, code, help test, art, music, ...everything that goes into gamedev.  
+Yes!  I cannot do this alone.  I am a terrible artist so completely depend on viewers for that... but other areas can be a huge help as well.  Anyone is welcome to contribute ideas, code, help test, art, music, ...everything that goes into a project.  
 
 You can get as involved as you like.  FYI officially this is just me.  Some have gotten very involved, but it started with them stepping up in chat saying they would like to help.  Please feel free to jump in, maybe starting small.
 
@@ -11,7 +11,7 @@ Pros:
  - Experience / fun.
  - For your portfolio.
  - Credits in the game itself.
- - If you make a non-trivial contribution, I may be able to return the favor someday in the form of a letter of recommendation (or similar).
+ - If you make a sizeable contribution, I may be able to return the favor someday in the form of a letter of recommendation (or similar).
 
 Cons:
 
@@ -20,9 +20,13 @@ Cons:
  - All your contributions must be submitted with an open-source, free for commercial-use license (such as MIT).
  - Not all contributions will fit the theme or goal of the game, i.e. I cannot promise we'll use your work.
 
-## How-to Help?
+## What Should I Work On?
+
+You can poke around our TODO lists here https://docs.google.com/document/d/16UcYhl3vxI0_eIHl3o-dfzr6S18MlRkq6_ywJAZBI5M/edit .. or if you have another idea, just let us know.
 
 If there is something you are considering doing, it may be best to check in with us in chat before you start (in case someone else is on it or to confirm the direction).
+
+## How-to Help?
 
 To submit there are two options:
 
@@ -32,7 +36,7 @@ To submit there are two options:
      - FYI Subs can view the source for our game and all the projects we work on. This is not 'open source' - for educational purposes or to help with the game, all rights reserved.
      - Please limit the number of files changed, especially scenes and prefabs which typically do not merge well.
  - For anyone: 
-   - Submit art and code files via merge requests to [this public repository](https://github.com/hardlydifficult/Submissions).
+   - Submit files (e.g. art or code) via merge requests to [this public repository](https://github.com/hardlydifficult/Submissions).
      - Your changes must be under a folder with your username and include an open source license, such as MIT (template below).
      - Brand new to Git? This [Intro to GIT](https://www.dropbox.com/s/ducmblu3kj3b9x9/2017-04-26_23-18-26.mp4?dl=0) has been recommended.
      - Basic process for submitting:
@@ -44,9 +48,6 @@ To submit there are two options:
          - It should default correctly, but this should create a pull request merging your master branch into my master branch.
          - In the comments describe what changed (if art, maybe include a screenshot).
 
-## What Should I Work On?
-
-You can poke around our TODO lists here https://docs.google.com/document/d/16UcYhl3vxI0_eIHl3o-dfzr6S18MlRkq6_ywJAZBI5M/edit .. or if you have another idea, just let us know.
 
 ## MIT template (two blanks to fill in at the beginning)
 
@@ -57,3 +58,12 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+<br>
+<br>
+<br>
+<br><hr>
+
+Support on [Patreon](https://www.patreon.com/HardlyDifficult), with [Paypal](https://u.muxy.io/tip/HardlyDifficult), or by subscribing on [Twitch](https://www.twitch.tv/HardlyDifficult/subscribe) (free with Amazon Prime).
